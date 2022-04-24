@@ -16,6 +16,10 @@ class MyModel
         this.email=email
     }
 
+    override fun toString(): String {
+        return "id:"+id+"\t"+"name:"+name+"\t"+"email:"+email
+    }
+
 
 
 }
